@@ -27,6 +27,8 @@ function Home() {
                 transitionTime={3}
                 infiniteLoop={true}
                 showStatus={false}
+                interval={3000}
+                swipeable={true}
             >
                 {
                     popularMovies.map(movie => (
